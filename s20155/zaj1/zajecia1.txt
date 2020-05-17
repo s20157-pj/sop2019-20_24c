@@ -11,6 +11,12 @@ Instalacja linuxa (debian)
 9.Podaj nazwę użytkownika
 10.Podaj i potwierdź hasło użytkownika
 11.Partycjonowanie dysków(można wybrać guided - use entire disk)
+  11a. Opcjonalnie wybieramy manual partitioning
+  11a1. Tworzymy pustą partycję
+  11a2. Wybieramy wolne miejsce -> Create new partition -> Ustalamy rozmiar partycji
+  11a3. Ustalamy czy partycja jest główna, czy logiczna -> oraz czy będzie na początku czy na końcu
+  11a4. Dostosowujemy partycje do naszych potrzeb (system plików, nazwę, mount options)
+  11a5. Kończymy partycjonowanie i przechodzimy dalej
 12.Potwierdź, tak, tak, tak, tak...
 13.Zeskanować dysk w poszukiwaniu obrazu płyty? Nie
 14.Wybierz serwer (Poland ->debian.org)
