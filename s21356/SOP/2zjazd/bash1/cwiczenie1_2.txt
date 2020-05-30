@@ -1,0 +1,6 @@
+Zmiennej X przypisalismy wartosc tekst, ktora wyswietlilismy na ekranie.
+Nastepnie uruchomilismy nowa powloke bash, proba wyswietlenia zmiennej X nie powiodla sie, poniewaz byla to zmienna lokalna
+i nie byla ona widoczna w nowej powloce.
+W kolejnym przykladzie zmiennej X probowalismy przypisac wartosc ze spacja, aby to zrobic nalezy caly napis zamknac w codzyslowach.
+Stosuj¹c ", mozna wpisac kilka slow oddzielonych spacja, natomiast zmienne i znaki specjalne sa interpretowane.
+Stosujac ' mozna wpisac dowolny ciag znakow (bez apostrofow)

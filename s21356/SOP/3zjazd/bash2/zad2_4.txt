@@ -1,0 +1,10 @@
+#!/bin/bash
+
+ls -l>lista.txt
+ile=$(wc -l lista.txt)
+if [[ $ile > 6 ]]
+then
+echo "Jest wiecej niz 5 plikow"
+fi
+
+

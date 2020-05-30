@@ -1,0 +1,42 @@
+#!/bin/bash
+
+
+echo "Zawartosc ilu plikow chcesz wyswietlic?"
+
+read ile
+
+
+
+for ((j=0; j<ile; j++)); do
+
+echo "Podaj nazwe kolejnego pliku"
+
+read nazwa
+tablica[j]=$nazwa
+
+done
+
+
+
+dlugosc=${#tablica[@]}
+
+
+echo "Zawartosc podanych  plikow od pierwszego do ostatniego:"
+
+for ((i=0; i<$dlugosc;i++)); do
+
+(cat ${tablica[i]})
+
+done
+
+
+
+echo "Zawartosc podanych plikow od ostatniego do pierwszego:"
+
+for ((k=$dlugosc; k>0; k--)); do
+
+(cat ${tablica[k-1]})
+
+
+done
+

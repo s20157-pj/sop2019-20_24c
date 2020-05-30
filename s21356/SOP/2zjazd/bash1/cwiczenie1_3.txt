@@ -1,0 +1,7 @@
+PATH - przechowuje sciezke do lokalizacji ze skryptami
+RANDOM - zmiena w ktorej przechowywana jest liczba z zakresu 0-32767
+PWD - zmienna przechowujaca informacje o katalogu w ktorym sie aktualnie znajdujemy
+PS1 - zmienna przechowujaca znak zachety
+USER - zmienna przechowujaca moj login
+HOSTNAME - zmienna przechowujaca nazwe mojego hosta
+OSTYPE - rodzaj systemu operacyjnego

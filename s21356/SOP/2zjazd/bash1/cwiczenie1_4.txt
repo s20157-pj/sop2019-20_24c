@@ -1,0 +1,3 @@
+Aby na ekranie zosta³o wyswietlone to samo co po wpisaniu komendy ls -a, nale¿y w terminalu wpisaæ:
+X=$(ls -l)
+echo "$X"

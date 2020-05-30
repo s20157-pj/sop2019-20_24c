@@ -1,0 +1,36 @@
+Aby zainstalowaæ system linux musimy posiadaæ:
+- maszyna wirtualna (mo¿e byæ Oracle VirtualBox)
+- obraz systemu (np. Linux Debian )
+
+Tworzenie i uruchamianie maszyny
+1. Uruchamiamy VirtualBoxa i torzymy nowa maszyne
+2. W nazwie wpisujemy "deb(instalka sama wypelni reszte pol).
+3. Wybieramy ilosc RAM, min 512MB).
+4. Wybieramy obraz naszej maszyny z dysku
+5. Maszyna jest gotowa
+9. Odpalamy maszyne zielona strzalka z napisem START
+
+Instalacja Debiana
+1. Sciagamy Debiana ze strony np: https://cdimage.debian.org/debian-cd/current/amd64/iso-cd/debian-10.3.0-amd64-netinst.iso
+2. Uruchamiamy sciagniety plik
+3. Wybieramy tekstowy tryb instalacji
+4. Jezyk english.
+5. Kraj Polska.
+6. Podajemy nazwe hosta czyli nazwe systemu jaka bedzie wyswietlana w sieci.
+7. Nazwa domeny - zostawiamy puste.
+8. Podajemy haslo.
+9. Podajemy nazwe uzytkownika.
+10. Podajemy login.
+11. Podajemy haslo uzytkownika. (inne niz root).
+12. Podzial partycji - wybieramy use Entire disk and set up LVM ( LVM - Logical Volume Manager, pozwala zarzadzac dyskami, 
+m.in powzwala na laczenie kilku partycji znajdujacych sie na roznych urzadzeniach pamieci masowej w jeden wirtualny dysk.
+13. Wybieramy Dysk ktory chcemy podzielic.
+14. Wybieramy All files in one partition.
+15. Pojawi sie ekran, z podsumowaniem naszych zmian.
+16. Zapisujemy zmiany.
+17. Potwierdzamy zmiany - nastapi sformatowanie dysku.
+18. Wybieramy Polska - kraj, z ktorego pobieramy pakiety.
+19. Wybieramy lustrzany serwer. (im blizej nas tym lepiej)
+20. Software selection - zaznaczamy napewno SSH server,+ jakis tryb graficzny ale nie koniecznie )
+21. Wybieramy urzadzenie, z ktorego ma byc zainstalowany system.
+22. Po zakonczeniu instalacji, system jest gotowy.
