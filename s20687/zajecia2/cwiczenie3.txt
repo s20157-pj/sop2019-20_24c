@@ -1,0 +1,7 @@
+PATH - sciezke do lokalizacji ze skryptami
+RANDOM - liczba z zakresu 0-32767
+PWD - biezacy katalog
+PS1 - znak zachety
+USER - zalogowany uzytkownik
+HOSTNAME - nazwe hosta
+OSTYPE - rodzaj systemu operacyjnego

@@ -1,0 +1,18 @@
+1. Wybór języka dla procesu instalacji (będzie także domyślnym dla zainstalowanego systemu)
+2. Wybór lokacji - przyporządkowuje strefe czasową
+3. Wybór układu klawiatury 
+4. Nazwa hosta - domyślnie
+5. Nazwa domeny - puste
+6. Hasło dla root 
+7. Nazwa użytkownika + hasło
+8. Wybór strefy czasowej.
+9. Wybór sposobu partycjonowania dysku. 
+10. Wybór dysku, na którym instalujemy system
+11. Schemat partycji.
+12. Wgląd na schemat partycji - możliwość dokonania zmian + akceptacja.
+13. Wybór lokalizacji menadżera pakietów oraz dokładnego serwera, z którego będą pobierane ropozytoria 
+14. Konfiguracja HTTP Proxy
+15. Wybór opragramowania do instalacji.
+16. Proces instalacji.
+17. Koniec :) 
+

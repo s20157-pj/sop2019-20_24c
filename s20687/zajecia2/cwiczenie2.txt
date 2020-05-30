@@ -1,0 +1,23 @@
+#!/bin/bash
+
+X=tekst
+echo $X
+bash
+echo $X
+
+# drugie wywonie zmiennej nie da efekty - zmienna jest lokalna i nie zostala exportowana
+
+A=Tekst dluzszyi
+echo $A
+
+# nie wywyola sie - zmienna oddzielona spacjami
+
+B="Tekst dluzszy"
+echo $B
+
+# wywola sie, stosujac "" mozna wpisac kilka wyrazow oddzielonych spacjami, zmienne i znaki specjalne sa interpretowane
+
+C='Teskt dluzszy'
+echo $C
+
+# stosujac '' zmienne i znaki specjalne nie sa interpretowawne
